@@ -4,8 +4,8 @@
 #combine-section {
   background: linear-gradient(
     180deg,
-    rgba(236, 178, 46, 0) -4.71%,
-    rgba(255, 255, 255, 0.33) 4.86%
+    rgba(236, 178, 46, 0.08) 0%,
+    rgba(255, 255, 255, 0.11) 100%
   );
 }
 
@@ -252,6 +252,20 @@
   line-height: normal;
 }
 /* portfolio-section */
-/* #logo-section {
-  gap: 146.04px;
-} */
+
+/* client section */
+.client-subtitle {
+  color: #fcc028;
+  font-size: 15.578px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.client-heading {
+  color: rgba(0, 0, 0, 0.81);
+  font-size: 31.156px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+/* client section */
