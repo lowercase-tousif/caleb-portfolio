@@ -413,12 +413,12 @@
 
     <!-- Contact  & Footer Section -->
     <section
-      class="container-fluid d-flex align-items-center"
+      class="container-fluid d-flex align-items-center pt-5 mt-5"
       id="combine-section"
     >
       <div class="container">
-        <div class="row d-flex align-items-center">
-          <div class="col-md-6">
+        <div class="row   pt-5">
+          <div class="col-md-6 px-5">
             <h4>Contact us</h4>
             <p>
               We are committed to processing the information in order to contact
@@ -426,9 +426,18 @@
             </p>
           </div>
           <div class="col-md-6">
-            <input type="text" />
-            <input type="text" />
-            <input type="text" />
+            <input type="text" placeholder="Name*" required class="mb-2" />
+            <input type="email" placeholder="Email*" class="mb-2" />
+            <input type="text" placeholder="Website*" class="mb-2" />
+            <textarea
+              name=""
+              id=""
+              cols="35"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+
+            <button type="submit" class="submit-btn">Submit</button>
           </div>
         </div>
       </div>

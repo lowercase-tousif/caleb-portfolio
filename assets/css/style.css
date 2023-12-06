@@ -235,8 +235,7 @@
 /* case section */
 
 /* portfolio-section */
-.port-first-row {
-}
+
 .portfolio-subtitle {
   color: #fcc028;
   font-size: 15.578px;
@@ -269,3 +268,39 @@
   line-height: normal;
 }
 /* client section */
+
+/* contact and about */
+input[type="text"],
+input[type="email"] {
+  width: 523.07px;
+  height: 80.129px;
+  border-radius: 9.736px;
+  border-radius: 9.736px;
+  border: 1.947px solid rgba(0, 0, 0, 0.5);
+  background: #fff;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 19.472px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+::placeholder {
+  padding-left: 20px;
+}
+::placeholder::after {
+  content: "*";
+}
+textarea {
+  border-radius: 9.736px;
+  border: 1.947px solid rgba(0, 0, 0, 0.5);
+  background: #fff;
+}
+.submit-btn {
+  padding: 15.77px 49.93px 15.77px 49.93px;
+  border-radius: 4.868px;
+  background: #fcc028;
+  color: white;
+  border: 0;
+  margin-top: 49.65px;
+}
+/* contact and about */
