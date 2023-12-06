@@ -286,6 +286,7 @@ input[type="email"] {
 }
 ::placeholder {
   padding-left: 20px;
+  padding-top: 5px;
 }
 ::placeholder::after {
   content: "*";
@@ -295,12 +296,45 @@ textarea {
   border: 1.947px solid rgba(0, 0, 0, 0.5);
   background: #fff;
 }
+textarea::placeholder {
+  padding-top: 20px;
+}
 .submit-btn {
   padding: 15.77px 49.93px 15.77px 49.93px;
   border-radius: 4.868px;
   background: #fcc028;
   color: white;
   border: 0;
-  margin-top: 49.65px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
+.contact-heading {
+  color: rgba(0, 0, 0, 0.81);
+  font-size: 31.156px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.contact-desc {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15.578px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contact-img-text {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 23.918px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* About */
+#about-section {
+  margin-top: 300px;
+}
+/* About */
+
 /* contact and about */
